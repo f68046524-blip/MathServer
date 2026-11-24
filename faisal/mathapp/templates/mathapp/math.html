@@ -1,0 +1,21 @@
+<head>
+        <title>FWAD experiment 3</title>
+    </head>
+    <body>
+        <h1 align="center">churn rate calculator</h1><br>
+        <h2 align="center">FAISAL S ( 26018146 )</h2>
+        <form method="post">
+            {% csrf_token %}
+            <label>Initial Customers Count:</label>
+            <input type="text" name="InitCust" value="{{In}}"><br><br>
+            
+            <label>Customers Lost Count:</label>
+            <input type="text" name="CustLost" value="{{Cl}}"><br><br>
+            
+            <input type="submit" value="calculate"><br><br>
+            <lable><b>Churn Rate:</b></lable>
+            <input type="text" value="{{churn_rate}}">
+            
+        </form>
+    </body>
+</html>
