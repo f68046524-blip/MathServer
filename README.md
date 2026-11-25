@@ -42,7 +42,9 @@ Render the result to the HTML template.
 Publish the website in Localhost.
 
 ## PROGRAM:
-```<head>
+``` 
+<html>
+    <head>
         <title>FWAD experiment 3</title>
     </head>
     <body>
